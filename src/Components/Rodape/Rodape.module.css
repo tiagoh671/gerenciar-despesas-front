@@ -1,0 +1,25 @@
+.rodape{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #2c2c2d;
+  padding: 15px;
+  color: #fff;
+}
+
+.rodape p{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.rodape a{
+  text-decoration: none;
+  color: rgb(168, 183, 196);
+}
+
+@media (max-width: 400px){
+  .rodape{
+    font-size: 12px;
+  }
+}

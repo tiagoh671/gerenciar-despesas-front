@@ -1,0 +1,195 @@
+
+.container h2{
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px auto;
+  padding-left: 20px;
+  font-size: 40px;
+  color: gray;
+  text-shadow: 1px 1px 2px black;
+}
+
+.table_container{
+  padding: 0 20px;
+  margin: 0 auto 50px auto;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.table_container table{
+  border-collapse: collapse;
+}
+
+.table_container table th{
+  width: calc(1000px /4);
+  text-align: left;
+  padding: 10px;
+  background-color: #2c2c2d;
+  color: #fff;
+}
+
+.table_container table td{
+  padding: 20px 5px;
+}
+
+.table_container table td:first-child, .table_container table th:first-child{
+  width: 50px;
+}
+
+.table_container table td:last-child{
+  text-align: center;
+}
+
+.btn_alterar{
+  background-color: rgb(20, 168, 45);
+}
+.btn_excluir{
+  background-color: red;
+}
+
+.btn_salvar{
+  background-color: blue;
+}
+
+.btn{
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px 1px gray;
+  color: #fff;
+}
+
+.btn:hover{
+  box-shadow: 2px 2px 10px 1px gray;
+}
+
+.carregando{
+  margin: 35vh auto 0 auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+.bold{
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #fff;
+}
+
+.entrada{
+  color: green;
+}
+
+.saida{
+  color: red;
+}
+
+.zerado{
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  color: red;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+@media (max-width:840px){
+  .container h2 {
+    font-size: 28px; 
+    padding-left: 10px; 
+  }
+  .table_container {
+    padding: 0 10px;
+  }
+  .table_container table th, .table_container table td {
+    font-size: 14px;
+    padding: 5px 2px;
+  }
+  .table_container table th {
+    flex: 1 1 auto;
+  }
+  .table_container table td:first-child, .table_container table th:first-child {
+    flex: 1 1 auto;
+  }
+  .btn {
+    padding: 8px;
+    font-size: 14px;
+    margin: 2px 0;
+  }
+  .carregando {
+    font-size: 30px;
+  }
+  .zerado {
+    font-size: 30px; 
+    margin: 20vh auto 0 auto; 
+  }
+  .entrada, .saida {
+    font-size: 16px; 
+  }
+
+  .table_container input{
+    width: 100%;
+  }
+}
+
+@media (max-width: 475px) {
+  .container h2 {
+    font-size: 22px; 
+    padding-left: 5px;
+  }
+
+  .table_container {
+    padding: 0 5px;
+  }
+
+  .table_container table th, .table_container table td {
+    font-size: 12px;
+    padding: 3px 1px;
+  }
+
+  .btn {
+    padding: 5px; 
+    font-size: 12px; 
+    margin: 1px 0; 
+  }
+
+  .carregando {
+    font-size: 24px; 
+  }
+
+  .zerado {
+    font-size: 24px; 
+    margin: 15vh auto 0 auto;
+  }
+
+
+  .entrada, .saida {
+    font-size: 14px; 
+  }
+}
+@media (max-width: 375px) {
+  .container h2 {
+    font-size: 18px;
+  }
+
+  .table_container table th, .table_container table td {
+    font-size: 10px;
+    padding: 2px 1px; 
+  }
+  .btn {
+    padding: 4px;
+    font-size: 10px;
+  }
+
+  .carregando {
+    font-size: 20px; 
+  }
+
+  .zerado {
+    font-size: 20px; 
+    margin: 10vh auto 0 auto;
+  }
+
+  .entrada, .saida {
+    font-size: 12px;
+  }
+}
